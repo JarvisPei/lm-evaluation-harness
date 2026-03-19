@@ -1,4 +1,4 @@
-dataset_path: RMT-team/babilong-1k-samples
+dataset_path: RMT-team/babilong
 output_type: generate_until
 doc_to_target: "{{target}}"
 target_delimiter: " "

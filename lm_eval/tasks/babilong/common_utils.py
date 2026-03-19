@@ -47,7 +47,7 @@ def load_dataset(**kwargs):
         f"Loading babilong dataset: max_seq_lengths={config_name}, split={qa_split}"
     )
     dataset = datasets.load_dataset(
-        "RMT-team/babilong-1k-samples", name=config_name, split=qa_split
+        "RMT-team/babilong", name=config_name, split=qa_split
     )
     return {qa_split: dataset}
 
